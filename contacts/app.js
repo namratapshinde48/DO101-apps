@@ -1,6 +1,11 @@
+// Importing the 'http-errors' module to handle HTTP errors in the application
+
 var createError = require('http-errors');
+// Importing the 'express' module to create and manage the web application
 var express = require('express');
+// Importing the 'path' module to work with file and directory paths
 var path = require('path');
+// Importing the 'cookie-parser' module to parse cookies in incoming requests
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
