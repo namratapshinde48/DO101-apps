@@ -1,3 +1,4 @@
+//this contains routes related details
 const express = require('express');
 const router = express.Router();
 const { pgconn } = require('../db/config')
